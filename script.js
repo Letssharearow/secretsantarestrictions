@@ -48,8 +48,6 @@ var restrictionToArray = (RestrictionAsString) => {
   for (let index = 0; index < arrayString.length; index++) {
       arrayInteger[index] = parseInt(arrayString[index]);    
   }
-
-  console.log(arrayInteger);
   return arrayInteger;
 }
 
