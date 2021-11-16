@@ -3,6 +3,7 @@ var namesOutput = document.getElementById("nameOutput");
 var restrictionInput = document.getElementById("restrictionInput");
 const restrictionOutput = document.getElementById("restrictionOutput");
 const errorMessage = document.getElementById("error");
+const calculateButton = document.getElementById("calculate");
 
 const namesMap = new Map();
 let indexMap = 0;
