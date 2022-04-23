@@ -1,21 +1,32 @@
 body{
-    background-color: rgb(29, 29, 29);
+    background-image: url("assets/background.jpg");
+    margin: 180px;
 }
 
 h1{
-    color: rgb(255, 208, 170);
+    color: rgb(0, 23, 155);
 }
 
 p{
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: brown;
+    width: 200px;
 }
 
-.input{
+input{
     background-color: rgb(169, 140, 255);
     width: 200px;
 }
 
+input::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.button{
+    width: 100px;
+}
+
 .error{
     font-size: 20px;
-    color: red;
+    color: rgb(0, 255, 21);
 }

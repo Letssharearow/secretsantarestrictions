@@ -9,16 +9,14 @@
     <h1>Secret Santa with Restrictions</h1>
     <input class="input" type="text" placeholder="e.g.: Bastion" name="Name" id="nameInput" />
     <br/>
-    <div>
-      <p id="nameOutput" class="text"></p>
-    </div>
-	<input class="input" type="text" placeholder="e.g.: 0,1,2,4 ..." name="restrictions" id="restrictionInput" />
     <br/>
-    <div>
+    <input class="input" type="text" placeholder="e.g.: 0,1,2,4 ..." name="restrictions" id="restrictionInput" />
+    <br/>
+    <br/>
+    <input class="button" id="calculate" type="button" value="calculate">
+      <p id="nameOutput" class="text"></p>
       <p id="restrictionOutput" class="text"></p>
-    </div>
-	<input id="calculate" type="button" value="calculate">
-
+    
 	<p class="error" id="error"></p>
     <script src="script.js"></script>
   </body>
